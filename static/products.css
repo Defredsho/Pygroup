@@ -1,0 +1,62 @@
+body {
+  background-color: #3E848C; 
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+	color: #fff; 
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 1rem;
+
+  background-color: #C4EEF2;
+
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: .2s ease-in-out;
+}
+
+img {
+  object-fit: scale-down;
+  height: 200px;
+}
+
+header a {
+  padding: .5rem 1rem;
+  width: fit-content;
+
+  background: #A67458;
+  border-radius: 5px;
+  color: #C4EEF2;
+}
+
+main a:hover {
+  transform: scale(1.1);
+}
+h2 {
+	font-family: 'Black Ops One', cursive;
+
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
